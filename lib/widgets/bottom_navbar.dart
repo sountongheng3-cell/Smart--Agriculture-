@@ -37,8 +37,6 @@ class _BottomNavbarState extends State<BottomNavbar> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
 
-        selectedItemColor: AppColors.primaryColor,
-
         unselectedItemColor: Colors.grey,
 
         type: BottomNavigationBarType.fixed,
